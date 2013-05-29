@@ -1,5 +1,5 @@
 //
-// Prefix header for all source files of the 'AnimateLabel' target in the 'AnimateLabel' project
+// Prefix header for all source files of the 'AnimateView' target in the 'AnimateView' project
 //
 
 #import <Availability.h>
