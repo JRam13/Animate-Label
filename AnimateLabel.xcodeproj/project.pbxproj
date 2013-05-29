@@ -26,20 +26,20 @@
 		523B40241756A0DB0057B5B6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		523B40261756A0DB0057B5B6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		523B40281756A0DB0057B5B6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		523B402C1756A0DB0057B5B6 /* AnimateLabel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnimateLabel-Info.plist"; sourceTree = "<group>"; };
+		523B402C1756A0DB0057B5B6 /* AnimateLabel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "AnimateLabel-Info.plist"; path = "SupportingFiles/AnimateLabel-Info.plist"; sourceTree = "<group>"; };
 		523B402E1756A0DB0057B5B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		523B40301756A0DB0057B5B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		523B40321756A0DB0057B5B6 /* AnimateLabel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AnimateLabel-Prefix.pch"; sourceTree = "<group>"; };
-		523B40331756A0DB0057B5B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		523B40341756A0DB0057B5B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		523B40361756A0DB0057B5B6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		523B40381756A0DB0057B5B6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		523B403A1756A0DB0057B5B6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		523B40301756A0DB0057B5B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SupportingFiles/main.m; sourceTree = "<group>"; };
+		523B40321756A0DB0057B5B6 /* AnimateLabel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AnimateLabel-Prefix.pch"; path = "SupportingFiles/AnimateLabel-Prefix.pch"; sourceTree = "<group>"; };
+		523B40331756A0DB0057B5B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = SupportingFiles/AppDelegate.h; sourceTree = "<group>"; };
+		523B40341756A0DB0057B5B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = SupportingFiles/AppDelegate.m; sourceTree = "<group>"; };
+		523B40361756A0DB0057B5B6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = SupportingFiles/Default.png; sourceTree = "<group>"; };
+		523B40381756A0DB0057B5B6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "SupportingFiles/Default@2x.png"; sourceTree = "<group>"; };
+		523B403A1756A0DB0057B5B6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "SupportingFiles/Default-568h@2x.png"; sourceTree = "<group>"; };
 		523B403D1756A0DB0057B5B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		523B403F1756A0DB0057B5B6 /* AnimateLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimateLabel.h; sourceTree = "<group>"; };
-		523B40401756A0DB0057B5B6 /* AnimateLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimateLabel.m; sourceTree = "<group>"; };
-		523B40471756A1990057B5B6 /* TestAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestAnimation.h; sourceTree = "<group>"; };
-		523B40481756A1990057B5B6 /* TestAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestAnimation.m; sourceTree = "<group>"; };
+		523B403F1756A0DB0057B5B6 /* AnimateLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AnimateLabel.h; path = Category/AnimateLabel.h; sourceTree = "<group>"; };
+		523B40401756A0DB0057B5B6 /* AnimateLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AnimateLabel.m; path = Category/AnimateLabel.m; sourceTree = "<group>"; };
+		523B40471756A1990057B5B6 /* TestAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestAnimation.h; path = TestClass/TestAnimation.h; sourceTree = "<group>"; };
+		523B40481756A1990057B5B6 /* TestAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestAnimation.m; path = TestClass/TestAnimation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,10 +87,8 @@
 			isa = PBXGroup;
 			children = (
 				523B403C1756A0DB0057B5B6 /* MainStoryboard.storyboard */,
-				523B403F1756A0DB0057B5B6 /* AnimateLabel.h */,
-				523B40401756A0DB0057B5B6 /* AnimateLabel.m */,
-				523B40471756A1990057B5B6 /* TestAnimation.h */,
-				523B40481756A1990057B5B6 /* TestAnimation.m */,
+				523B40671756AD020057B5B6 /* AnimateLabelCategory */,
+				523B40661756ACF60057B5B6 /* TestAnimation */,
 				523B402B1756A0DB0057B5B6 /* Supporting Files */,
 			);
 			path = AnimateLabel;
@@ -110,6 +108,24 @@
 				523B403A1756A0DB0057B5B6 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		523B40661756ACF60057B5B6 /* TestAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				523B40471756A1990057B5B6 /* TestAnimation.h */,
+				523B40481756A1990057B5B6 /* TestAnimation.m */,
+			);
+			name = TestAnimation;
+			sourceTree = "<group>";
+		};
+		523B40671756AD020057B5B6 /* AnimateLabelCategory */ = {
+			isa = PBXGroup;
+			children = (
+				523B403F1756A0DB0057B5B6 /* AnimateLabel.h */,
+				523B40401756A0DB0057B5B6 /* AnimateLabel.m */,
+			);
+			name = AnimateLabelCategory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +210,7 @@
 				523B402E1756A0DB0057B5B6 /* en */,
 			);
 			name = InfoPlist.strings;
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 		523B403C1756A0DB0057B5B6 /* MainStoryboard.storyboard */ = {
@@ -202,6 +219,7 @@
 				523B403D1756A0DB0057B5B6 /* en */,
 			);
 			name = MainStoryboard.storyboard;
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -267,8 +285,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AnimateLabel/AnimateLabel-Prefix.pch";
-				INFOPLIST_FILE = "AnimateLabel/AnimateLabel-Info.plist";
+				GCC_PREFIX_HEADER = "AnimateLabel/SupportingFiles/AnimateLabel-Prefix.pch";
+				INFOPLIST_FILE = "AnimateLabel/SupportingFiles/AnimateLabel-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -278,8 +296,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "AnimateLabel/AnimateLabel-Prefix.pch";
-				INFOPLIST_FILE = "AnimateLabel/AnimateLabel-Info.plist";
+				GCC_PREFIX_HEADER = "AnimateLabel/SupportingFiles/AnimateLabel-Prefix.pch";
+				INFOPLIST_FILE = "AnimateLabel/SupportingFiles/AnimateLabel-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -304,6 +322,7 @@
 				523B40461756A0DB0057B5B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
