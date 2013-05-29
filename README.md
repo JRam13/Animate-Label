@@ -9,6 +9,8 @@ To call - #import AnimateView.h then,
 
 [myLabel animateView:(xPosInt) :(yPosInt) :(animationDurationInt) :(startTimerInt)]
 
+[myTableView animateView:(xPosInt) :(yPosInt) :(animationDurationInt) :(startTimerInt)]
+
 The public method:
 
 - (void)animateView:(int)moveToXPosition :(int)moveToYPosition :(int)animationDuration :(int)startDelay;
