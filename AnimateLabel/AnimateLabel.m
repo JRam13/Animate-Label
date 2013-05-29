@@ -10,7 +10,7 @@
 
 @implementation UILabel (AnimateLabel)
 
-- (void)animateLabel:(int)moveToXPosition :(int)moveToYPosition :(int)animationDuration :(int)startDelay;
+- (void)animateLabel:(int)moveToXPosition :(int)moveToYPosition :(int)animationDuration :(int)startDelay
 {
     CGPoint move;
     move.x = moveToXPosition;
