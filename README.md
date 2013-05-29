@@ -1,14 +1,14 @@
-Animate-Label
+Animate-View
 =============
 
-iOS Library / Category to easily animate a label
+iOS Library / Category to easily animate a view
 
-To use - simply copy AnimateLabel.h, and AnimateLabel.m classes into your project. 
+To use - simply copy AnimateView.h, and AnimateView.m classes into your project. 
 
-To call - #import AnimateLabel.h then,
+To call - #import AnimateView.h then,
 
-[myLabel animateLabel:(xPosInt) :(yPosInt) :(animationDurationInt) :(startTimerInt)]
+[myLabel animateView:(xPosInt) :(yPosInt) :(animationDurationInt) :(startTimerInt)]
 
 The public method:
 
-- (void)animateLabel:(int)moveToXPosition :(int)moveToYPosition :(int)animationDuration :(int)startDelay;
+- (void)animateView:(int)moveToXPosition :(int)moveToYPosition :(int)animationDuration :(int)startDelay;
